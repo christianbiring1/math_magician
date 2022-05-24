@@ -14,7 +14,7 @@ class Calculator extends Component {
           <span>AC</span>
           <span>+/-</span>
           <span>%</span>
-          <span className="app-operator">/</span>
+          <span className="app-operator">&divide;</span>
           <span>7</span>
           <span>8</span>
           <span>9</span>
