@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@200;400&display=swap');
+
+.container {
+  background: rgba(223, 223, 223, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: 'Monserrat', sans-serif;
+}
+
+.app-screen {
+  background-color: rgba(18, 11, 26, 0.4);
+  text-align: right;
+  padding: 15px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.app-input {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.app-input span {
+  border: 1px solid lightgrey;
+  text-align: center;
+  padding: 20px;
+  cursor:default
+}
+
+.double-item {
+  grid-column: span 2;
+}
+
+.app-operator {
+  background-color: rgba(216, 130, 0, 0.9);
+  font-size: 1.2rem;
+}
