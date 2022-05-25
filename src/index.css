@@ -25,11 +25,12 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
-.app-input span {
+.app-input button {
   border: 1px solid lightgrey;
   text-align: center;
   padding: 20px;
-  cursor: default;
+  /* cursor: default; */
+  outline: none;
 }
 
 .double-item {

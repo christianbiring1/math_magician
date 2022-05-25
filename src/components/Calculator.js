@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import calculate from '../logic/calculate';
 
 class Calculator extends Component {
   constructor(props) {
@@ -11,25 +12,25 @@ class Calculator extends Component {
       <div className="container">
         <div className="app-screen">0</div>
         <div className="app-input">
-          <span>AC</span>
-          <span>+/-</span>
-          <span>%</span>
-          <span className="app-operator">&divide;</span>
-          <span>7</span>
-          <span>8</span>
-          <span>9</span>
-          <span className="app-operator">x</span>
-          <span>4</span>
-          <span>5</span>
-          <span>6</span>
-          <span className="app-operator">-</span>
-          <span>1</span>
-          <span>2</span>
-          <span>3</span>
-          <span className="app-operator">+</span>
-          <span className="double-item">0</span>
-          <span>.</span>
-          <span className="app-operator">=</span>
+          <button type="submit" name="AC">AC</button>
+          <button type="submit">+/-</button>
+          <button type="submit">%</button>
+          <button type="submit" className="app-operator">÷</button>
+          <button type="submit">7</button>
+          <button type="submit">8</button>
+          <button type="submit">9</button>
+          <button type="submit" className="app-operator">x</button>
+          <button type="submit">4</button>
+          <button type="submit">5</button>
+          <button type="submit">6</button>
+          <button type="submit" className="app-operator">-</button>
+          <button type="submit">1</button>
+          <button type="submit">2</button>
+          <button type="submit">3</button>
+          <button type="submit" className="app-operator">+</button>
+          <button type="submit" className="double-item">0</button>
+          <button type="submit">.</button>
+          <button type="submit" className="app-operator">=</button>
         </div>
       </div>
     );
