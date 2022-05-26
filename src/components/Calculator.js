@@ -1,4 +1,3 @@
-// /* eslint-disable */
 import React, { Component } from 'react';
 import calculate from '../logic/calculate';
 
