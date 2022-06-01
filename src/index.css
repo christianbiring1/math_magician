@@ -11,7 +11,9 @@
 body {
   background: rgba(223, 223, 223, 0.7);
 }
+
 /* ******************** Navbar ************************* */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -41,6 +43,7 @@ body {
   background-color: blue;
   margin-left: -10px;
 }
+
 .nav-items a {
   text-decoration: none;
   color: blue;
@@ -55,17 +58,17 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.introduction p{
+.introduction p {
   margin-top: 10px;
 }
 
 /* ***************** Calculator page ******************** */
 
 .wrapper {
- width: 90%;
- display: grid;
- grid-template-columns: 1fr 1fr;
- margin: 5rem auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5rem auto;
 }
 
 .container {
