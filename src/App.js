@@ -21,6 +21,7 @@ class App extends Component {
         <Navbar />
         <Router>
           <Routes>
+            <Route path="/" element={<Welcome />} />
             <Route path="/Welcome" element={<Welcome />} />
             <Route path="/Calculator" element={<Calculator />} />
             <Route path="/Quote" element={<Quote />} />
