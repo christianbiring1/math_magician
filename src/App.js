@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Welcome from './components/welcome';
 import Quote from './components/quote';
@@ -14,9 +19,13 @@ class App extends Component {
     return (
       <>
         <Navbar />
-        <Calculator />
-        <Welcome />
-        <Quote />
+        <Router>
+          <Routes>
+            <Route path="/Welcome" element={<Welcome />} />
+            <Route path="/Calculator" element={<Calculator />} />
+            <Route path="/Quote" element={<Quote />} />
+          </Routes>
+        </Router>
       </>
     );
   }
