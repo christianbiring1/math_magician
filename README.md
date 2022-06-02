@@ -9,9 +9,9 @@ This is the first project of the Math Magicians application. I had to set up the
 - JavaScript
 - React
 
-## Live Demo (Not yet available)
+## Live Demo
 
-You can check the live demo []()
+You can check the live demo [here](https://chris-math-magician.herokuapp.com/)
 
 ### Prerequisites
 
