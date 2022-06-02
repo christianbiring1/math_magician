@@ -11,7 +11,11 @@ This is the first project of the Math Magicians application. I had to set up the
 
 ## Live Demo
 
-You can check the live demo [here](https://chris-math-magician.herokuapp.com/)
+You can check the live demo :
+
+- on heroku [here](https://chris-math-magician.herokuapp.com/)
+
+- on netlifly [here](https://chris-math-magicians.netlify.app/)
 
 ### Prerequisites
 
