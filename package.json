@@ -1,5 +1,7 @@
 {  
   "homepage": "http://christianbiring1.github.io/math_magician",
+  "calculatorpage": "http://christianbiring1.github.io/math_magician/Calculator",
+  "quotepage": "http://christianbiring1.github.io/math_magician/Quote",
   "name": "math_magician",
   "version": "0.1.0",
   "private": true,
