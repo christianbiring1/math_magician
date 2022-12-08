@@ -1,7 +1,4 @@
 {  
-  "homepage": "http://christianbiring1.github.io/math_magician",
-  "calculatorpage": "http://christianbiring1.github.io/math_magician/Calculator",
-  "quotepage": "http://christianbiring1.github.io/math_magician/Quote",
   "name": "math_magician",
   "version": "0.1.0",
   "private": true,
@@ -19,8 +16,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
